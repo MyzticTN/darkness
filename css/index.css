@@ -1,0 +1,303 @@
+body {
+  font-family: "Comfortaa";
+      font-size: "25px";
+      text-align: center;
+      background-color: #1e2124;
+      background-repeat: no-repeat;
+      background-size: cover
+      }
+
+      .navbar {
+        overflow: hidden;
+        background-color: #29304d;
+      }
+
+      .navbar a {
+        float: left;
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        padding: 18px 16px;
+        text-decoration: none;
+
+        .w3-xlarge {
+          margin-top: 10%;
+          outline: none;
+          background: transparent;
+          border: 1px solid #6886ed;
+          padding: 0 10px;
+          border-radius: 6px;
+          height: 3.5rem;
+          width: 40rem;
+          margin: 10px;
+          color: white;
+        }
+      }
+
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+
+      .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: Comfortaa;
+        margin: 0;
+      }
+
+      .navbar a:hover,
+      .dropdown:hover .dropbtn {
+        background-color: #1e2124;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #282b30;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        font-family: Comfortaa;
+      }
+
+      .dropdown-content a {
+        float: none;
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #7289da;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+body {
+      
+    }
+
+    .containerz {
+      font-family: "Comfortaa";
+      font-size: "50px";
+      color: #6886ed;
+      margin-top: 10%;
+    }
+
+    .container p {
+      font-size: 50px;
+      margin-bottom: 2px;
+    }
+
+    #iurl {
+      background-color: inherit;
+      width: 100%;
+      height: 28px;
+      border: solid 1px #FFF;
+      font-family: "Comfortaa";
+      font-size: 16px;
+      color: #eee;
+      padding: 8px 0px;
+      margin-bottom: 5px;
+      box-sizing: content-box;
+      text-align: center;
+      border-radius: 2px;
+    }
+
+
+
+    .container a {
+      height: 20px;
+      background: inherit;
+      background-size: cover;
+      color: #ddd;
+      border: 0;
+      cursor: pointer;
+      font-family: "Comfortaa";
+      font-size: 17px;
+      transition: 0.3s;
+    }
+
+    .container a:hover {
+      font-size: 23;
+    }
+
+    .url {
+      width: 300px;
+      margin: auto;
+    }
+.iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+iframe {
+  width: 1200px; 
+  height: 800px;
+}
+.fullscreen {
+  padding-left: 88.2%;
+  font-size: 20;
+  border-radius: 8px;
+}
+.dropdown .dropbn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: Comfortaa;
+        margin: 0;
+  border-bottom: 3px solid #fff700;
+}
+.dropdon {
+        float: right;
+        overflow: hidden;
+  padding-right: 40px;
+  font-color: white;
+      }
+
+      .dropdon .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: Comfortaa;
+        margin: 0;
+        font-color: white;
+      }
+
+      .navbar a:hover,
+      .dropdon:hover .dropbtn {
+        background-color: #1e2124;
+      }
+
+      .dropdon-content {
+        display: none;
+        position: absolute;
+        background-color: #282b30;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        font-family: Comfortaa;
+        font-color: white;
+      }
+
+      .dropdon-content a {
+        float: none;
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-color: white;
+      }
+
+      .dropdon-content a:hover {
+        background-color: #7289da;
+      }
+
+      .dropdon:hover .dropdon-content {
+        display: block;
+      }
+.theme-light {
+    background-color: black;
+  }
+
+  .theme-dark {
+    /* Dark theme styles */
+  }
+
+  /* The switch - the box around the slider */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked+.slider {
+    background-color: #2196F3;
+  }
+
+  input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+
+  input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+
+  .slider.round:before {
+    border-radius: 50%;
+  }
+.text {
+  font-size: 15px;
+}
+@font-face {
+  font-family: "mbf";
+  src: url("MBFSpace.woff") format('woff');
+}
+.change {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.embeder {
+  width: 100%;
+  height: 100%;
+}
+.element {
+  background-image: url("https://mintcreamwirelessgenerics.snooply.repl.co/darkness.jpeg");
+  background-size: cover;
+}

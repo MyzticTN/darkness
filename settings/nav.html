@@ -1,0 +1,122 @@
+<div class="dropdown">
+      <button onclick="window.location.href='search.html';" class="dropbtn"><i class="fa-solid fa-magnifying-glass"></i>
+        Search
+      </button>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn"><b>Games</b>
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="gfiles/roblox">Roblox</a>
+        <a href="gfiles/taming">Taming.io</a>
+        <a href="gfiles/shellshock">Shell-Shockers</a>
+        <a href="gfiles/krunker">Krunker.io</a>
+        <a href="gfiles/madgunz">Mad Gunz</a>
+        <a href="gfiles/devast">Devast.io</a>
+        <a href="games.html">View All</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn"><b>Apps</b>
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="afiles/cloudtube">CloudTube <i class="fa-brands fa-youtube"></i></a>
+        <a href="afiles/chromium">Chromium <i class="fa-brands fa-chrome"></i></a>
+        <a href="afiles/firefox">Firefox <i class="fa-brands fa-firefox"></i></a>
+        <a href="afiles/discord">Discord <i class="fa-brands fa-discord"></i></a>
+        <a href="afiles/tiktok">TikTok <i class="fa-brands fa-tiktok"></i>
+        </a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button onclick="window.location.href='settings.html';" class="dropbtn"><i class="fa-solid fa-gear"></i> Settings
+      </button>
+    </div>
+    <div class="dropdon">
+      <button class="dropbtn"><b>Themes</b>
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdon-content">
+        Red <label class="switch">
+  <input type="checkbox" id="red">
+  <span class="slider round"></span>
+</label><br>
+        Light <label class="switch">
+  <input type="checkbox" id="light">
+  <span class="slider round"></span>
+</label><br>
+        Fracital <label class="switch">
+  <input type="checkbox" id="frag">
+  <span class="slider round"></span>
+</label><br>
+        Incognito <label class="switch">
+  <input type="checkbox" id="incog">
+  <span class="slider round"></span>
+</label><br>
+        <script>var toggleCheckbox = document.getElementById('light');
+
+  // Add an event listener to the button
+  toggleCheckbox.addEventListener('click', function () {
+    // Get the body element
+    var body = document.body;
+
+    // Toggle the 'theme-light' and 'theme-dark' classes on the body element
+    body.classList.toggle('theme-light');
+
+  });</script>
+        <script>var toggleCheckbox = document.getElementById('frag');
+
+  // Add an event listener to the button
+  toggleCheckbox.addEventListener('click', function () {
+    // Get the body element
+    var body = document.body;
+
+    // Toggle the 'theme-light' and 'theme-dark' classes on the body element
+    body.classList.toggle('jeep');
+
+  });</script>
+      </div>
+    </div>
+  </div>
+  <style>.theme-light {
+    background-color: white;
+  }</style>
+  
+<script>
+  document.getElementById("frag").addEventListener("click", function(){
+  document.getElementById("text").style.color = document.getElementById("text").style.color === "purple" ? "#6886ed" : "purple";
+});
+ document.getElementById("frag").addEventListener("click", function(){
+  document.getElementById("text2").style.color = document.getElementById("text2").style.color === "purple" ? "#6886ed" : "purple";
+});
+  document.getElementById("frag").addEventListener("click", function(){
+  document.getElementById("nav").style.background = document.getElementById("nav").style.background === "purple" ? "#29304d" : "purple";
+});
+  document.getElementById("frag").addEventListener("click", function(){
+  document.getElementById("nav2").style.backgroundcolor = document.getElementById("nav2").style.backgroundcolor === "purple" ? "#6886ed" : "purple";
+});
+</script>
+  <script>
+ document.getElementById("incog").addEventListener("click", function(){
+  document.getElementById("nav").style.background = document.getElementById("nav").style.background === "green" ? "#29304d" : "green";
+});
+    document.getElementById("incog").addEventListener("click", function(){
+  document.getElementById("text").style.color = document.getElementById("text").style.color === "green" ? "#6886ed" : "green";
+});
+ document.getElementById("incog").addEventListener("click", function(){
+  document.getElementById("text2").style.color = document.getElementById("text2").style.color === "green" ? "#6886ed" : "green";
+});
+  </script>
+  <script>
+ document.getElementById("red").addEventListener("click", function(){
+  document.getElementById("nav").style.background = document.getElementById("nav").style.background === "black" ? "#29304d" : "black";
+});
+    document.getElementById("red").addEventListener("click", function(){
+  document.getElementById("text").style.color = document.getElementById("text").style.color === "red" ? "#6886ed" : "red";
+});
+ document.getElementById("red").addEventListener("click", function(){
+  document.getElementById("text2").style.color = document.getElementById("text2").style.color === "red" ? "#6886ed" : "red";
+});
+  </script>
