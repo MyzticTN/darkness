@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/search.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="/settings/index.js"></script>
+  <link rel="shortcut icon" type="image/png" href="logo.png" />
+  <html>
+
+  <head>
+    <script src="https://kit.fontawesome.com/31f3cedc53.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Darkness</title>
+    <link rel="icon" type="image/x-icon" href="img/clever.ico">
+  </head>
+
+<body>
+  <div class="navbar" id="nav">
+    <div class="dropdown">
+      <button onclick="window.location.href='index.html';" class="dropbtn"><i class="fa-solid fa-house"></i> Home
+      </button>
+    </div>
+    <div class="dropdown">
+      <button onclick="window.location.href='search.html';" class="dropbtn"><i class="fa-solid fa-magnifying-glass"></i>
+        Search
+      </button>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn"><b>Games</b>
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="gfiles/roblox.html">Roblox</a>
+        <a href="gfiles/taming.html">Taming.io</a>
+        <a href="gfiles/shellshock.html">Shell-Shockers</a>
+        <a href="gfiles/krunker.html">Krunker.io</a>
+        <a href="gfiles/madgunz.html">Mad Gunz</a>
+        <a href="gfiles/devast.html">Devast.io</a>
+        <a href="games.html">View All</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn"><b>Apps</b>
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="afiles/cloudtube.html">CloudTube <i class="fa-brands fa-youtube"></i></a>
+        <a href="afiles/chromium.html">Chromium <i class="fa-brands fa-chrome"></i></a>
+        <a href="afiles/firefox.html">Firefox <i class="fa-brands fa-firefox"></i></a>
+        <a href="afiles/discord.html">Discord <i class="fa-brands fa-discord"></i></a>
+        <a href="afiles/tiktok.html">TikTok <i class="fa-brands fa-tiktok"></i>
+        </a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button onclick="window.location.href='settings.html';" class="dropbn"><i class="fa-solid fa-gear"></i> Settings
+      </button>
+    </div>
+    <div class="dropdon">
+      <button class="dropbtn"><b>Themes</b>
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdon-content">
+        Red <label class="switch">
+          <input type="checkbox" id="red">
+          <span class="slider round"></span>
+        </label><br>
+        Light <label class="switch">
+          <input type="checkbox" id="light">
+          <span class="slider round"></span>
+        </label><br>
+        Fracital <label class="switch">
+          <input type="checkbox" id="frag">
+          <span class="slider round"></span>
+        </label><br>
+        Incognito <label class="switch">
+          <input type="checkbox" id="incog">
+          <span class="slider round"></span>
+        </label><br></div>
+      <script>var toggleCheckbox = document.getElementById('light');
+
+        // Add an event listener to the button
+        toggleCheckbox.addEventListener('click', function () {
+          // Get the body element
+          var body = document.body;
+
+          // Toggle the 'theme-light' and 'theme-dark' classes on the body element
+          body.classList.toggle('theme-light');
+
+        });</script>
+      <script>var toggleCheckbox = document.getElementById('frag');
+
+        // Add an event listener to the button
+        toggleCheckbox.addEventListener('click', function () {
+          // Get the body element
+          var body = document.body;
+
+          // Toggle the 'theme-light' and 'theme-dark' classes on the body element
+          body.classList.toggle('jeep');
+
+        });</script>
+    </div>
+  </div>
+  </div>
+  <style>
+    .theme-light {
+      background-color: white;
+    }
+  </style>
+
+  <script>
+    document.getElementById("frag").addEventListener("click", function () {
+      document.getElementById("text").style.color = document.getElementById("text").style.color === "purple" ? "#6886ed" : "purple";
+    });
+    document.getElementById("frag").addEventListener("click", function () {
+      document.getElementById("text2").style.color = document.getElementById("text2").style.color === "purple" ? "#6886ed" : "purple";
+    });
+    document.getElementById("frag").addEventListener("click", function () {
+      document.getElementById("nav").style.background = document.getElementById("nav").style.background === "purple" ? "#29304d" : "purple";
+    });
+    document.getElementById("frag").addEventListener("click", function () {
+      document.getElementById("nav2").style.backgroundcolor = document.getElementById("nav2").style.backgroundcolor === "purple" ? "#6886ed" : "purple";
+    });
+  </script>
+  <script>
+    document.getElementById("incog").addEventListener("click", function () {
+      document.getElementById("nav").style.background = document.getElementById("nav").style.background === "green" ? "#29304d" : "green";
+    });
+    document.getElementById("incog").addEventListener("click", function () {
+      document.getElementById("text").style.color = document.getElementById("text").style.color === "green" ? "#6886ed" : "green";
+    });
+    document.getElementById("incog").addEventListener("click", function () {
+      document.getElementById("text2").style.color = document.getElementById("text2").style.color === "green" ? "#6886ed" : "green";
+    });
+  </script>
+  <script>
+    document.getElementById("red").addEventListener("click", function () {
+      document.getElementById("nav").style.background = document.getElementById("nav").style.background === "black" ? "#29304d" : "black";
+    });
+    document.getElementById("red").addEventListener("click", function () {
+      document.getElementById("text").style.color = document.getElementById("text").style.color === "red" ? "#6886ed" : "red";
+    });
+    document.getElementById("red").addEventListener("click", function () {
+      document.getElementById("text2").style.color = document.getElementById("text2").style.color === "red" ? "#6886ed" : "red";
+    });
+  </script>
+  </div>
+  </div>
+</body>
+
+
+</html>
+</head>
+
+<body>
+  <div class="containerz" id="texte">
+    <div class="change" id="setting">
+      <form placeholder="Change Tab Name..." onsubmit="buttonCode();">
+        <input type="text" value="" id="nameChange" </input>
+        <input type="button" value="Name Tab" onclick="buttonCode();" id="submitButton" </input>
+      </form>
+    </div>
+    <script>
+      var tabName = localStorage.getItem('tabname');
+      document.title = (tabName)
+    </script>
+  </div>
+</body>
+
+</html>
